@@ -11,7 +11,6 @@ import io
 
 linkfile = open('link.txt',"aw+")
 #sucode = urllib2.urlopen("").read()
-
 #soup = BeautifulSoup(sucode,'html.parser')
 
 soup = BeautifulSoup(open('233.html'),'html.parser')
